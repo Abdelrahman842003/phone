@@ -1,2 +1,2 @@
 # phone
-template using (html and css  and js)  
+phone using (html and css  and js)  
