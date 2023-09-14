@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background: #000000;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.container header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.container header .logo {
+    width: 40px;
+}
+
+.container header li a {
+    padding: 20px 40px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+    font-size: 18px;
+}
+
+.container header li a:hover {
+    background-color: #3698ff;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+/* body  */
+.container-body {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container-body .text-body {
+    margin: 0 30px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-body .text-body h2 {
+    padding: 0 30px;
+    font-size: xx-large;
+    letter-spacing: 1.2px;
+    margin: 15px 0;
+}
+
+.container-body .text-body p {
+    padding: 0 30px;
+    color: #eee;
+    margin-bottom: 15px;
+    letter-spacing: 1.1px;
+
+
+}
+
+.container-body .text-body a {
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: #3697ff48;
+    border: 1px solid rgba(255, 255, 255, 0.214);
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: .3s;
+}
+
+.container-body .text-body a:hover {
+    background-color: #3698ff;
+    border: 1px solid white;
+    transform: scale(1.1);
+}
+
+.icons {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icons img {
+    width: 70px;
+    opacity: .3;
+    transition: .4s ease all;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    opacity: 1;
+    transition: .4s ease all;
+    transform: scale(1.2);
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .header {
+        width: 750px;
+    }
+}
+
+
+/* Medium */
+@media (min-width: 992px) {
+    .header {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .header {
+        width: 1170px;
+    }
+
+
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my phone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a href="#"><img class="logo" src="img/logo.png" alt="Logo" /></a>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">News</a>
+          </li>
+        </ul>
+      </header>
+      <!-- end of header -->
+      <div class="container-body">
+        <div class="text-body">
+          <h2>IPHONE 14 PRO MAX</h2>
+          <p>
+            iPhone 14 Pro and 14 Pro Max. With Dynamic Island. Emergency SOS via
+            satellite. Crash Detection. An innovative 48MP camera.
+          </p>
+          <a href="#">All Product</a>
+        </div>
+        <div class="photo-phone">
+          <img class="image" src="img/0.png" alt="Iphone" />
+        </div>
+      </div>
+      <div class="icons">
+        <img
+          class="imagePhone1"
+          onclick="changeColorPhone(this.src); color1(); changeColorBackground('#000')"
+          src="img/0.png"
+          alt="Phone"
+        />
+        <img
+          class="imagePhone2"
+          onclick="changeColorPhone(this.src); color2(); changeColorBackground('#247ec8')"
+          src="img/1.png"
+          alt="Phone"
+        />
+        <img
+          class="imagePhone3"
+          onclick="changeColorPhone(this.src); color3(); changeColorBackground('#1e1e1e')"
+          src="img/2.png"
+          alt="Phone"
+        />
+        <img
+          class="imagePhone4"
+          onclick="changeColorPhone(this.src); color4(); changeColorBackground('#c79b53')"
+          src="img/3.png"
+          alt="Phone"
+        />
+        <img
+          class="imagePhone5"
+          onclick="changeColorPhone(this.src); color5(); changeColorBackground('#c82525')"
+          src="img/4.png"
+          alt="Phone"
+        />
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
